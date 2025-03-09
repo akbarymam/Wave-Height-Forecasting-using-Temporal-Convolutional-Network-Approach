@@ -3,7 +3,7 @@ Wave height prediction is crucial in several sectors, including environmental mo
 
 We investigated wave condition is the coastal region in Pacitan Bay, East Java, Indonesia, that dominantly consisting of swell generated in the Indian Ocean. Pacitan Bay has an important role as it serves as a route or stopover for coal-carrying barges, especially when facing bad weather conditions or high waves. Accurate wave data in Pacitan’s coastal area is obtained using nested high-density wave simulations with the SWAN model. 
 
-gambar map pacitan
+![image](https://github.com/user-attachments/assets/7bb5ef83-a45b-4410-ad57-f6978817e993)
 
 This work uses a range of scenarios and training data periods to investigate, across 3, 7, 14, and 21-day intervals, how well the TCN forecasts results. Random search methods of hyperparameter tuning assist the TCN model to be optimum. Two methods of evaluation for the model are Coefficient of Determination (R²) and Root Mean Square Error (RMSE).
 
