@@ -14,9 +14,14 @@ This work uses a range of scenarios and training data periods to investigate, ac
 This project utilises high-resolution wave data obtained through wave down scaling in the coastal area of Pacitan, East Java, Indonesia. The simulation was performed continously for nine years using SWAN wave model. incorporating global wind data sourced from ERA5 by ECMWF The simulation occurs within three nested domains.The smallest domain in the Pacitan region is located on the southern coast of Java Island,with coordinates spanning from 7°55’ to 8°17’ South latitude and 110°55’ to 111°25’ East longitude.
 
 ## Result
-
 ![image](https://github.com/user-attachments/assets/7c4ecca0-6647-43f0-bb6a-a99fd70dcb21)
+To attain optimal model performance, the training data is segmented into various scenarios based on efficiency considerations and computing power limitations. This Scenarios used for comparative analysis to identify the most effective predictive outcomes, with each scenario covering 1 year (from March 31, 2022, to March 31, 2023), 3 years (from March 31, 2020, to March 31, 2023), and 5 years (from March 31, 2018, to March 31, 2023). To test these scenarios we performed a 21-day forecasting using the default parameters for the model.
 
+![image](https://github.com/user-attachments/assets/9b3dc9ed-8f85-4039-bdb2-62925c973ca0)
+Table above ilustrated the performance enhancement of the TCN after hyperparameter adjustment. The coefficient of determination (R²) values climbedwhile the RMSE values fell, signifying enhanced predictive accuracy for the model. In the TCN model, the R² value increased from 0.9734 to 0.9870, and the RMSE fell from 0.0272 to 0.0172.
+
+![image](https://github.com/user-attachments/assets/59543d9b-ffa1-40b6-b094-c570b8828010)
+At the final stage, we performed 3, 7, 14 and 21-day forecasting to compare the performance of each prediction step (day) as shown in Table above. This case indicated that TCN exhibited ideal performance across all predicting intervals, obtaining an R² value of 0.9930 and an RMSE value of 0.0170 in 3-day forecasting.
 
 ![image](https://github.com/user-attachments/assets/f11af67c-2ff5-4f75-a7b7-e02a14960fac)
 ![image](https://github.com/user-attachments/assets/88ae8012-4a01-47bf-b59c-d5e926a7cc7c)
