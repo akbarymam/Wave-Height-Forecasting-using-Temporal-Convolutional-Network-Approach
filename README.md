@@ -15,6 +15,9 @@ This project utilises high-resolution wave data obtained through wave down scali
 
 ## Result
 
+![image](https://github.com/user-attachments/assets/7c4ecca0-6647-43f0-bb6a-a99fd70dcb21)
+
+
 ![image](https://github.com/user-attachments/assets/f11af67c-2ff5-4f75-a7b7-e02a14960fac)
 ![image](https://github.com/user-attachments/assets/88ae8012-4a01-47bf-b59c-d5e926a7cc7c)
 ![image](https://github.com/user-attachments/assets/9fe6a3db-e7a5-4b6d-8ec2-060adf5996ae)
