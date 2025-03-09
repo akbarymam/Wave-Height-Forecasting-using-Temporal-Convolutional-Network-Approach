@@ -15,7 +15,8 @@ This work uses a range of scenarios and training data periods to investigate, ac
 This project utilises high-resolution wave data obtained through wave down scaling in the coastal area of Pacitan, East Java, Indonesia. The simulation was performed continously for nine years using SWAN wave model. incorporating global wind data sourced from ERA5 by ECMWF The simulation occurs within three nested domains.The smallest domain in the Pacitan region is located on the southern coast of Java Island,with coordinates spanning from 7°55’ to 8°17’ South latitude and 110°55’ to 111°25’ East longitude.
 
 ## Result
-![image](https://github.com/user-attachments/assets/7c4ecca0-6647-43f0-bb6a-a99fd70dcb21)
+
+![image](https://github.com/user-attachments/assets/ae46baf2-8893-40ef-8887-f516966050cd)
 
 To attain optimal model performance, the training data is segmented into various scenarios based on efficiency considerations and computing power limitations. This Scenarios used for comparative analysis to identify the most effective predictive outcomes, with each scenario covering 1 year (from March 31, 2022, to March 31, 2023), 3 years (from March 31, 2020, to March 31, 2023), and 5 years (from March 31, 2018, to March 31, 2023). To test these scenarios we performed a 21-day forecasting using the default parameters for the model.
 
